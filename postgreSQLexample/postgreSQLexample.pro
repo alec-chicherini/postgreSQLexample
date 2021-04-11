@@ -12,8 +12,4 @@ MOC_DIR += .
 OBJECTS_DIR += debug
 UI_DIR += .
 RCC_DIR += .
-QT += sql
-QT += widgets
-QT+= gui
-QT+=core
 include(postgreSQLexample.pri)

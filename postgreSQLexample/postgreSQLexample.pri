@@ -7,6 +7,9 @@
 message("You are running qmake on a generated .pro file. This may not work!")
 
 
-HEADERS += ./window.h
+HEADERS += ./postgres_connection.h \
+    ./window.h
 SOURCES += ./main.cpp \
+    ./postgres_connection.cpp \
     ./window.cpp
+FORMS += ./postgres_connection.ui
